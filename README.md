@@ -20,18 +20,19 @@ Tout est stocké dans ton navigateur (`localStorage`) : aucun compte, aucun serv
 Aucune dépendance, aucune compilation.
 
 - **Localement** : ouvre `index.html` dans un navigateur, ou lance `npm start` puis va sur <http://localhost:8000>.
-- **Sur téléphone, via GitHub Pages** (le plus pratique à côté de la console) : dans le dépôt GitHub, *Settings → Pages → Build and deployment → Source : Deploy from a branch*, branche `main`, dossier `/ (root)`. L'app sera servie à l'adresse `https://<utilisateur>.github.io/Platine-path/`. Ajoute-la ensuite à l'écran d'accueil du téléphone.
+- **Sur téléphone, via GitHub Pages** (le plus pratique à côté de la console) : dans le dépôt GitHub, *Settings → Pages → Build and deployment → Source : Deploy from a branch*, choisis la branche qui contient l'app (`main` une fois la branche de travail fusionnée) et le dossier `/ (root)`, puis *Save*. Après une à deux minutes, l'app est servie à <https://tristan-brn.github.io/Platine-path/>. Ajoute-la ensuite à l'écran d'accueil du téléphone. Chaque nouveau push sur cette branche met l'app à jour.
 
 ## Guides inclus
 
 | Jeu | État |
 | --- | --- |
 | Clair Obscur: Expedition 33 (PS5) | Parcours complet en 8 étapes ; liste de trophées **partielle (36 sur 56)** ; plusieurs points marqués « à vérifier » |
+| The Witcher 3: Wild Hunt (PS5 / PS4) | Jeu de base, parcours en 9 étapes (Death March!, White Orchard, Velen, Novigrad, Skellige, deux points de non-retour, nettoyage) ; liste de trophées **partielle (36 sur 53)** ; extensions non couvertes |
 
-### Comment ce guide a été construit, et ses limites
+### Comment ces guides ont été construits, et leurs limites
 
 - Il a été compilé à partir des guides cités dans l'app (PSNProfiles, PowerPyx, PlayStationTrophies.org, Game8, BrokenBuilds, WeArePlayStation…). **Les pages elles-mêmes n'étaient pas accessibles depuis l'environnement de développement** (le proxy réseau bloque ces domaines). Le contenu vient donc de résultats de recherche, recoupés entre plusieurs sources quand c'était possible.
-- Quand les sources se contredisaient ou qu'une seule source confirmait une information, l'élément porte la mention **« à vérifier »** dans l'app. Exemple : PowerPyx annonce 5 trophées manquables, mais d'autres guides en ajoutent (Surcharge de Gustave, compétence liée au boss Grosse Tête, disque « Lettre à Maelle »). Tous sont signalés dans le parcours.
+- Quand les sources se contredisaient ou qu'une seule source confirmait une information, l'élément porte la mention **« à vérifier »** dans l'app. Exemples : pour Expedition 33, PowerPyx annonce 5 trophées manquables, mais d'autres guides en ajoutent (Surcharge de Gustave, compétence liée au boss Grosse Tête, disque « Lettre à Maelle ») ; pour The Witcher 3, les guides comptent 9 ou 11 manquables. Tous sont signalés dans le parcours.
 - Le texte est reformulé, pas copié. Pour les emplacements précis des collectibles, suis les liens des sources.
 - Le parcours n'utilise aucun glitch ni exploit.
 
