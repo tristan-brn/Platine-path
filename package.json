@@ -1,0 +1,13 @@
+{
+  "name": "platine-path",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suivre son chemin vers le platine, étape par étape et sans spoil.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
